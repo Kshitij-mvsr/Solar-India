@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Savings & ROI Calculator - India</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="main.jpg">
+    <header>
+        <h1>☀ Solar ROI & Savings Calculator (India)</h1>
+        <p>Estimate your monthly savings, ROI, and environmental benefits by switching to solar energy.</p>
+    </header>
+
+    <section class="calculator">
+        <form id="calcForm">
+            <label>Monthly Energy Consumption (kWh): <input type="number" id="energyConsumption" required></label>
+            <label>Solar Panel System Cost (₹): <input type="number" id="solarCost" required></label>
+            <label>Installation Fee (₹): <input type="number" id="installationFee" required></label>
+            <label>Government Rebate (₹): <input type="number" id="rebate" required></label>
+            <label>Electricity Rate (₹/kWh): <input type="number" id="electricityRate" required placeholder="e.g., 7.5"></label>
+            <button type="submit">Calculate</button>
+        </form>
+
+        <div class="results">
+            <h2>Results:</h2>
+            <p id="monthlySavings">Monthly Savings: ₹0.00</p>
+            <p id="roi">ROI: 0.00%</p>
+        </div>
+    </section>
+
+    <section class="slides">
+        <div class="slide">
+
+        <h2>Why Go Solar? ☀</h2>
+            <img src="images/renewable.jpg" alt="Solar Panels" />
+            <h3>🌱 Environmental Benefits</h3>
+            <ul>
+                <li>Solar energy is 100% renewable & sustainable.</li>
+                <li>No greenhouse gases during operation.</li>
+                <li>Reduces carbon footprint and air pollution.</li>
+            </ul>
+        </div>
+
+        <div class="slide">
+            <img src="images/cost_savings.jpg" alt="Cost Saving" />
+            <h3>💸 Cost Savings</h3>
+            <ul>
+                <li>Significantly lowers your monthly electricity bill.</li>
+                <li>Free energy after installation.</li>
+                <li>Protects against power price hikes.</li>
+            </ul>
+        </div>
+
+        <div class="slide">
+            <img src="images/roi.jpg" alt="ROI" />
+            <h3>📈 Return on Investment (ROI)</h3>
+            <ul>
+                <li>Increases property value.</li>
+                <li>Govt. incentives improve ROI.</li>
+                <li>Average payback time: 5-10 years.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>  Built for a greener future 🌏</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
